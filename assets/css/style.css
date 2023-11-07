@@ -379,7 +379,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 50px;
-    border-bottom: 1px solid #e5ebf2;
+    /* border-bottom: 1px solid #e5ebf2; */
 }
 .single-progress-txt {
     display: flex;
@@ -851,5 +851,24 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
+}
+.achievement{
+    display: flex;
+    gap: 12px;
+    margin: 12px;
+}
+.achievement img{
+    width: 156px;
+}
+.achievement-description{
+    display: flex ;
+    flex-direction: column;
+    gap: 6px;
+}
+.achievement-description h3{
+    font-size: 18px;
+}
+.achievement-description p{
+    line-height: 18px;
 }
 /*========================Thank you=================
